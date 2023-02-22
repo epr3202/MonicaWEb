@@ -1,0 +1,206 @@
+body{
+    background-image: url("Imagenes/logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header {
+    background-color: #fdfd96;
+    color: #000;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 0;
+    margin-left: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  nav a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  
+  /*
+   * Logo
+   */
+  #logo-header {
+    float: left;
+    padding: 15px 0 0 20px;
+    text-decoration: none;
+    
+  }
+  #logo-header:hover {
+    color: #84b6f4;
+  }
+  
+  #logo-header .site-name {
+    display: block;
+    font-weight: 700;
+    font-size: 1.2em;
+  }
+  
+  #logo-header .site-desc {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: #999;
+  }
+  /*
+ * Navegación
+ */
+nav {
+    float: right;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+   
+  }
+  
+  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    
+  }
+  ul li.activo {
+    color: #FFFFFF;
+    background-color: #84b6f4;
+   }
+
+  ul li{
+    color: black;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 10px 10px;
+    text-decoration: underline;
+    
+  }
+  
+  nav ul li a:hover {
+    background: #ff6961;
+  }
+
+  /*
+    Contenido
+  */
+
+
+  .imagenes{
+    margin: 100px;
+    text-align: center;
+   
+  }
+  .kodfun-galeri{
+    display: flex;
+    height: 20rem;
+    gap:1rem;
+    padding: 40px 10px 30px 10px;
+      
+  }
+  .kodfun-galeri > div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transition: all .8s cubic-bezier(.25,.4,.45,1.4);
+    justify-content: center;
+  }
+  .kodfun-galeri > div:hover {
+    flex: 5;
+  }
+  .texto{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    color:#000;
+    background-color: #fcfcda;
+    font-family:  serif;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  .footer img {
+    width: 40px;
+  }
+  
+  /* 
+   Formulario
+   */
+  #caja-formulario {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fdcae1;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  h1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .campo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #666;
+  }
+  
